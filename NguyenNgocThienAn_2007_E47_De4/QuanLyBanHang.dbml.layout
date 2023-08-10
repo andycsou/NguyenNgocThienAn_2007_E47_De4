@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 18.375" name="QuanLyBanHang">
+  <DataContextMoniker Name="/QuanLyBanHangDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cfff9cf8-9161-4b48-821c-955f361a9076" absoluteBounds="3.5, 12.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba44c8e5-fead-4102-921b-3b926793d8c7" absoluteBounds="3.515, 13.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="83f754b4-7805-4839-8712-45fdbc9c4f78" absoluteBounds="3.5, 15, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Supplier" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2cf9daf2-db0d-4e38-82a8-8b0daf2c3c21" absoluteBounds="3.515, 15.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a70c4192-d5ba-4403-96e0-f79cad10faea" absoluteBounds="3.5, 8.5, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38593bd3-cb49-4836-9640-96b3ef7adfb2" absoluteBounds="3.515, 8.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5f84ba82-aa75-4c71-9f8f-7f1c496ea3ad" absoluteBounds="3.5, 1, 2, 4.2708154296875">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f29bfd58-6ba8-48bf-87c9-20937d328e04" absoluteBounds="3.515, 1.46, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f99224e-2c1e-4b10-b649-94885370ca24" absoluteBounds="0.75, 2.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Group" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9ae6f32-2fa0-4fcd-930b-c6c3e37ce185" absoluteBounds="0.765, 3.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d280f1f4-1267-4e33-8ef4-b7e32a322a55" absoluteBounds="9, 2.25, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/OrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="708ef01e-c08e-4680-b551-08547cbd0c83" absoluteBounds="9.015, 2.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4712ead4-4419-4666-b180-738c7d47e5f0" absoluteBounds="6.25, 1.375, 2, 3.5016097005208322">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f25ec28-e64c-4b21-bc3d-7a1dbee52a58" absoluteBounds="6.265, 1.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed84291e-4bf2-45c7-a8f4-08041ffd3fc2" absoluteBounds="6.25, 14, 2, 2.7324039713541648">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d24c852e-781b-4a75-bb49-d81c0b7f24e8" absoluteBounds="6.265, 14.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c8cda67-79e5-484f-962d-b63f4b1d9a3b" absoluteBounds="3.5, 6.25, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/QuanLyBanHangDataContext/Shipper" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f735026-a371-4b4c-b8e2-8035c2c67665" absoluteBounds="3.515, 6.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.22199625651042); (3.5 : 3.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Group/Group_Employee" />
+      <nodes>
+        <classShapeMoniker Id="1f99224e-2c1e-4b10-b649-94885370ca24" />
+        <classShapeMoniker Id="5f84ba82-aa75-4c71-9f8f-7f1c496ea3ad" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 3.13544840494792); (9 : 3.13544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Order/Order_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="4712ead4-4419-4666-b180-738c7d47e5f0" />
+        <classShapeMoniker Id="d280f1f4-1267-4e33-8ef4-b7e32a322a55" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.96235270182292); (7.25 : 9.96235270182292); (7.25 : 4.87660970052083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Customer/Customer_Order" />
+      <nodes>
+        <classShapeMoniker Id="a70c4192-d5ba-4403-96e0-f79cad10faea" />
+        <classShapeMoniker Id="4712ead4-4419-4666-b180-738c7d47e5f0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.12580485026042); (6.25 : 3.12580485026042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Employee/Employee_Order" />
+      <nodes>
+        <classShapeMoniker Id="5f84ba82-aa75-4c71-9f8f-7f1c496ea3ad" />
+        <classShapeMoniker Id="4712ead4-4419-4666-b180-738c7d47e5f0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 15.3662019856771); (10 : 15.3662019856771); (10 : 4.02089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Product/Product_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="ed84291e-4bf2-45c7-a8f4-08041ffd3fc2" />
+        <classShapeMoniker Id="d280f1f4-1267-4e33-8ef4-b7e32a322a55" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 13.3124995); (7.25 : 13.3124995); (7.25 : 14)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="cfff9cf8-9161-4b48-821c-955f361a9076" />
+        <classShapeMoniker Id="ed84291e-4bf2-45c7-a8f4-08041ffd3fc2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 15.8662019856771); (6.25 : 15.8662019856771)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Supplier/Supplier_Product" />
+      <nodes>
+        <classShapeMoniker Id="83f754b4-7805-4839-8712-45fdbc9c4f78" />
+        <classShapeMoniker Id="ed84291e-4bf2-45c7-a8f4-08041ffd3fc2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.94314697265625); (6.7187475 : 6.94314697265625); (6.7187475 : 4.87660970052083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyBanHangDataContext/Shipper/Shipper_Order" />
+      <nodes>
+        <classShapeMoniker Id="0c8cda67-79e5-484f-962d-b63f4b1d9a3b" />
+        <classShapeMoniker Id="4712ead4-4419-4666-b180-738c7d47e5f0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,42 @@
+﻿@model NguyenNgocThienAn_2007_E47_De4.Models.ThongKeDoanhSoViewModel
+
+@{
+    ViewBag.Title = "TinhDoanhSo";
+}
+
+<h2>TinhDoanhSo</h2>
+
+<div>
+    <h4>THỐNG KÊ TỔNG DOANH SỐ</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã Khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaKhachHang)
+        </dd>
+
+        <dt>
+            Tên Cty
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenCongTy)
+        </dd>
+
+        <dt>
+            Tổng doanh số
+        </dt>
+
+        <dd>
+            $@Html.DisplayFor(model => model.TongDoanhSo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "ListCustomer")
+</p>

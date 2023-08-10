@@ -1,0 +1,42 @@
+﻿@model NguyenNgocThienAn_2007_E47_De4.Models.ThongKeSanPhamViewModel
+
+@{
+    ViewBag.Title = "DemSLSP";
+}
+
+<h2>DemSLSP</h2>
+
+<div>
+    <h4>Thống kê số lượng sản phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Mã khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaKhachHang)
+        </dd>
+
+        <dt>
+            Tên công ty
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenCongTy)
+        </dd>
+
+        <dt>
+            Tổng sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TongSanPham) Sản phẩm
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "ListCustomer")
+</p>
