@@ -25,14 +25,14 @@ Tạo controller có tên `KhachHang` và thực hiện các xử lý sau:
  
 -	Khi người dùng click vào link **Thống kê**, sẽ hiển thị một view chứa các thông tin như mẫu, trong đó tổng doanh số là tổng thành tiền của tất cả các đơn hàng khách hàng đó đã đặt (2 điểm):
 
-Thống kê tổng doanh số
+>Thống kê tổng doanh số
 Mã khách hàng:	ALFKI
 Tên công ty:	Alfreds Futterkiste
 Tổng doanh số:	3600.40
 
 -	Khi người dùng click vào link **TK Số lượng SP**, sẽ hiển thị một view chứa các thông tin như mẫu, trong đó tổng số lượng sản phẩm của tất cả các đơn hàng khách hàng đó đã đặt (2 điểm):
 
-Thống kê số lượng sản phẩm
+>Thống kê số lượng sản phẩm
 Mã khách hàng:	ALFKI
 Tên công ty:	Alfreds Futterkiste
 Tổng sản phẩm:	86 sản phẩm
